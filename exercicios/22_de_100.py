@@ -1,0 +1,5 @@
+nome = str(input('qual o seu nome: ')).strip()
+print('ola {}, seu nome em maiuculo fica {}'.format(nome, nome.upper()))
+print('ola {} o seu nome todo em minusculo fica {}'.format(nome, nome.lower()))
+print('ola {} o seu nome tem ao todo {} letras'.format(nome,len(nome) - nome.count(' ')))
+print('ola {} seu primeiro nome tem {} letras'.format(nome,nome.find(' ')))
